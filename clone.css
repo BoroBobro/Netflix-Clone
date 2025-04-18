@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: small;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+svg{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.profile-img {
+    height: 30px;
+    border-radius: 50%;
+}
+
+.image-slider {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.image-slider1 {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.image-slider2 {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.image-slider-inner {
+    display: flex;
+    gap: 3px;
+    animation: scrollImages 25s linear infinite;
+}
+
+.image-slider-inner:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+footer p{
+    color: grey;
+    font-size: small;
+}
+
+footer ul li{
+    display: flex;
+    padding-bottom: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+}
