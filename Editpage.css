@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.form-control, .form-select {
+    border-radius: 0;
+}
